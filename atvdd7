@@ -1,0 +1,15 @@
+programa
+{
+	
+funcao inicio()
+	{
+		inteiro Tamanho = 0, Velocidade = 0, Tempo = 0
+		escreva("Qual tamanho do arquivo e a velocidade do seu wifi?\n")
+		leia(Tamanho,Velocidade)
+		enquanto(Tamanho>0){
+			Tamanho = Tamanho- Velocidade
+			Tempo++
+		}
+		escreva("\nFoi em " + Tempo + " Segundos")
+	}
+}
