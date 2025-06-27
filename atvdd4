@@ -7,7 +7,7 @@ programa
 	funcao inicio()
 	{
 		para(inteiro i = 0; i < 3; i++){
-			escreva("\nDaria para cortar " + Opcoes[i]/45 + " Pedaços inteiros. Numa ripa de " + Opcoes[i]*0.001 + " Metros e sobraria "+ Opcoes[i]%45 + " cm de ripa") 
+			escreva("\nPoderia cortar " + Opcoes[i]/45 + " Pedaços inteiros. Numa ripa de " + Opcoes[i]*0.001 + " Metros e sobraria "+ Opcoes[i]%45 + " cm de ripa") 
 		}
 	}
 }
