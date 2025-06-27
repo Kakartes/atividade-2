@@ -1,0 +1,15 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro Pedido = 0, Latas = 0
+		escreva("Quantos metros quadrados voce vai pintar?\n")
+		leia(Pedido)
+		enquanto(Pedido>0){
+			Pedido = Pedido-54
+			Latas++
+		}
+
+		escreva("Voce vai precisar de "+Latas+" Latas de Tintas. Totalizando "+Latas*480+" Reais")
+	}
+}
