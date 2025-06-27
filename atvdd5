@@ -1,0 +1,8 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Ele terá " + (((5*6)*52)/60) + " horas")
+	}
+}
